@@ -1,0 +1,33 @@
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://timesroman.in/sitemap.xml
+
+# Allow major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Allow social media crawlers
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Disallow admin and auth pages from being indexed
+Disallow: /admin/
+Disallow: /auth/callback
+
+# Add a crawl delay to prevent server overload
+Crawl-delay: 1

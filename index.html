@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Times Roman - AI-Powered News</title>
+    <meta name="description" content="Next-generation AI-powered news platform delivering fresh, unbiased perspectives on global events." />
+    <meta name="author" content="Times Roman" />
+
+    <!-- Force HTTPS -->
+    <script>
+      if (window.location.protocol === 'http:' && window.location.hostname !== 'localhost') {
+        window.location.href = window.location.href.replace('http:', 'https:');
+      }
+    </script>
+
+    <!-- Critical CSS - Inline styles to eliminate render-blocking CSS -->
+    <style>
+      body { margin: 0; padding: 0; font-family: system-ui, sans-serif; }
+      .critical-loading { position: fixed; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+    </style>
+
+    <meta property="og:title" content="Times Roman - AI-Powered News" />
+    <meta property="og:description" content="Next-generation AI-powered news platform delivering fresh, unbiased perspectives on global events." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.ibb.co/Z6ffRH7K/Timesromancir-logo.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://timesroman.com/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@timesroman" />
+    <meta name="twitter:image" content="https://i.ibb.co/Z6ffRH7K/Timesromancir-logo.png" />
+    
+    <!-- Updated favicon with circular style -->
+    <link rel="icon" type="image/png" href="https://i.ibb.co/Z6ffRH7K/Timesromancir-logo.png" />
+    <link rel="apple-touch-icon" href="https://i.ibb.co/Z6ffRH7K/Timesromancir-logo.png" />
+    
+    <!-- Google verification and IndexNow integration -->
+    <meta name="google-site-verification" content="COlQziRjAn0zvr18-dVJmeng9UcSIcywIPTcOGN1wLY" />
+    <meta name="google-adsense-account" content="ca-pub-7157905321366679">
+    <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_ID" />
+    
+    <!-- Preconnect to required domains - reduces connection time -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://i.ibb.co">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    
+    <!-- Cache control -->
+    <meta http-equiv="Cache-Control" content="max-age=86400, public" />
+  </head>
+
+  <body>
+    <div id="root">
+      <!-- Initial loading state to minimize CLS -->
+      <div class="critical-loading">
+        <div>Loading Times Roman...</div>
+      </div>
+    </div>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
